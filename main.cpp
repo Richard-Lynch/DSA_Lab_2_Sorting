@@ -3,9 +3,10 @@
 
 void print_array(int array[]);//prints all the values in an array
 int size_array(int array[]);//returns the size of an array
-int* create_rand_array(int size, int min, int max);//creates a random array with values between "min" and "max", of size "size"
+int* create_rand_array(int size, int min, int max); //creates a random array with values between "min" 
+                                                    //and "max"(inclusive), of size "size"
 
-const int size_of_array = 10;
+const int size_of_array = 100;
 const int min_array = 1;
 const int max_array = 10;
 
@@ -18,12 +19,12 @@ int main()
     printf("size of quick_test_array is: %d\n", size_array(quick_test_array));
     printf("------Finished Initialising Array------\n");
     printf("------Performing First QUICKSORT------\n");
-    Test_Sort.QUICKSORT(quick_test_array, 0, size_array(quick_test_array)-1);
+    Test_Sort.QUICKSORT(quick_test_array, 0, size_array(quick_test_array);
     print_array(quick_test_array);
     Test_Sort.print();
     printf("------Finished First QUICKSORT------\n");
     printf("------Performing Second QUICKSORT------\n");
-    Test_Sort.QUICKSORT(quick_test_array, 0, size_array(quick_test_array)-1);
+    Test_Sort.QUICKSORT(quick_test_array, 0, size_array(quick_test_array));
     print_array(quick_test_array);
     Test_Sort.print();
     printf("------Finished Second QUICKSORT------\n\n");
@@ -34,7 +35,7 @@ int main()
     printf("size of bubble_test_array is: %d\n", size_array(bubble_test_array));
     printf("------Finished Initialising Array------\n");
     printf("------Performing First BubbleSort------\n");
-    Test_Sort.BUBBLESORT(bubble_test_array, 0, size_array(bubble_test_array)-1);
+    Test_Sort.BUBBLESORT(bubble_test_array, 0, size_array(bubble_test_array));
     print_array(bubble_test_array);
     Test_Sort.print();
     printf("------Finished First BUBBLESORT------\n");
@@ -51,7 +52,6 @@ int main()
 
 void print_array(int array[]){
     int i = 0;
-    
     while(array[i+1]){
         printf("%d, ", array[i]);
         i++;
@@ -60,7 +60,7 @@ void print_array(int array[]){
 }
 
 int size_array(int array[]){
-    int i = 1;
+    int i = 0;
     while(array[i]){
         i++;
     }
