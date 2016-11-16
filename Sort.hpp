@@ -13,7 +13,8 @@ class Sort{
     void BUBBLESORT(int* Array, int first, int last);//bubblesort functuons
 
     //general
-    void print();//prints the number of probes required and clears probes
+    int print();//prints the number of probes required and clears probes
+    int return_probes();// returns and clears probes
 
     Sort();//initialises probes to 0
 };

@@ -4,3 +4,6 @@
 #include <iostream>
 #include <fstream>
 #include <time.h>       /* time */
+#include <iostream>
+#include <cstdio>
+#include <ctime>
