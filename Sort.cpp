@@ -28,7 +28,7 @@ void Sort::QUICKSORT(int* Array, int first, int last){
 
         //quicksort is then called recursivly on the "first array" ie the index's on the left of the pivot in the current array
         //quicksort is then called recursivly on the "second array" ie the index's on the right of the pivot in the current array        
-        lc
+        
     }
 }
 
